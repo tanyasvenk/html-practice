@@ -17,16 +17,16 @@ header {
     top: 0;
     width: -webkit-fill-available;
 }
-/*nav ul {*/
-/*    list-style: none;*/
-/*    border: 2px solid rgb(95,108,55);*/
-/*    background-color:rgb(206, 235, 122);*/
-/*    margin: 0;*/
-/*    padding: 20px 0;*/
-/*    top: 98px;*/
-/*    position: fixed;*/
-/*    width: -webkit-fill-available;*/
-/*}*/
+nav ul {
+    list-style: none;
+    border: 2px solid rgb(95,108,55);
+    background-color:rgb(206, 235, 122);
+    margin: 0;
+    padding: 20px 0;
+    top: 98px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
 nav li {
     display: inline;
     margin-left: 20px;
