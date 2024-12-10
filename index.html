@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Татьяна Савенкова</title>
+    <link rel="icon" href="icons8-звезда-64.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div style="display: inline-block;">
+                <div class="logo"> <img src="capybara_7743312.png" alt="logo"></div>
+            </div>
+        </div>
+        <div class="author">
+            <span>Группа ЭФБО-02-23</span><br>
+            Савенкова Татьяна Эдуардовна
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a target="_blank" href="myProject3.html">Первый семестр</a></li>
+            <li><a href="#">Второй семестр</a></li>
+            <li><a target="_blank" href="myProject2.html">Услуги</a></li>
+            <li><a href="#">Авторизация</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <h4 id="header_4">Навигация<br>по странице</h4>
+            <div class="navigation">
+                <a href="#frontend">Фронтенд</a>
+                <a href="#backend">Бэкенд</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="headContent">
+                <div class="textHeadContent"> 
+                    <h2 id="header">Добро пожаловать на мой сайт</h2>
+                    <p id="item">Меня зовут Савенкова Татьяна Эдуардовна и я начинающий специалист по веб-разработке.</p>
+                </div>
+                <div style="width: 200px;; margin-left: 20px; margin-top: 30px;">
+                    <img class="photo" src="photo_2024-09-10_22-50-36.jpg" alt="Красивая девушка на фото">
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <div id="frontend"><h3>Фронтенд</h3>
+                    <p>Фронтенд (или клиентская часть) – это то, что видит пользователь. Он включает в себя все визуальные элементы веб-сайта или приложения: кнопки, формы, изображения и текст. Фронтенд разработчики используют языки разметки и стилизации, такие как HTML, CSS и JavaScript, чтобы создавать интерактивный и привлекательный интерфейс. Основная задача фронтенда – обеспечить удобство использования и эстетическую привлекательность.</p>
+                    <div class="video"><iframe src="https://vk.com/video_ext.php?oid=-226862294&id=456239022&hd=2&autoplay=0" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe></div>
+                </div>
+                <div id="backend"><h3>Бэкенд</h3>
+                    <p>Бэкенд (или серверная часть) – это "за кулисами" веб-приложения. Он отвечает за обработку данных, управление пользователями и взаимодействие с базами данных. Бэкенд разработчики используют языки программирования, такие как Python, Ruby, Java или PHP, а также фреймворки и базы данных для создания логики приложения. Основная задача бэкенда – обеспечить стабильную работу приложения и безопасность данных.</p>
+                    <div class="video"><iframe src="https://vk.com/video_ext.php?oid=-222867498&id=456239017&autoplay=0" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const header = document.getElementById("header");
+        const photo = document.querySelector('.photo');
+        const item = document.getElementById('item');
+
+        item.addEventListener('click', () => {
+            item.style.transition = 'background-color 1s ease';
+            item.style.backgroundColor = 'rgb(239, 255, 190)';
+        })
+
+        photo.addEventListener("mouseover", () => {
+            photo.style.transform = 'scale(1.1)';
+            console.log('Курсор наведен на фото');
+        })
+
+        photo.addEventListener("mouseout", () => {
+            console.log('Курсор убран с фото');
+            photo.style.transform = 'scale(1)';
+        })
+
+        let isStudentPhoto = true;
+
+        photo.addEventListener('click', () => {
+            console.log('Клик по фото');
+            console.log('isStudentPhoto до переключения:', isStudentPhoto);
+            if (isStudentPhoto) {
+                photo.src = 'любимка.jpg';
+                isStudentPhoto = false;
+            } else {
+                photo.src = 'photo_2024-09-10_22-50-36.jpg';
+                isStudentPhoto = true;
+            }
+            console.log('isStudentPhoto после переключения:', isStudentPhoto);
+        });
+
+        photo.addEventListener('dblclick', () =>{
+            alert("Не налегай, у меня не так много любимых преподавателей")
+        })
+
+        header.addEventListener('click', () => {
+            alert("Вы кликнули на заголовок - так держать!")
+        });
+
+    </script>
+    <footer>
+        <p style="text-align: center; grid-area: privacy;">© Савенкова Татьяна Эдуардовна, 2024</p>
+        <div class="social-links">
+            <a target="_blank" href="https://wa.me/79156974448?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..."><img src="whatsapp.png" alt="whatsapp"></a>
+            <a target="_blank" href="https://vk.com/svenkt"><img src="vk.png" alt="vkontakte"></a>
+        </div>
+    </footer>
+</body>
+</html>

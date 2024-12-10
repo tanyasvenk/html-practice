@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Татьяна Савенкова</title>
+    <link rel="icon" href="icons8-звезда-64.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div style="display: inline-block;">
+                <div> <img class="logo" src="capybara_7743312.png" alt="logo"></div>
+            </div>
+        </div>
+        <div class="author">
+            <span>Группа ЭФБО-02-23</span><br>
+            Савенкова Татьяна Эдуардовна
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="myProject3.html">Первый семестр</a></li>
+            <li><a href="#">Второй семестр</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Авторизация</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <h4>Навигация<br>по странице</h4>
+            <div class="navigation">
+                <a href="#veb">Разработка веб-приложений</a>
+                <a href="#shop">Товары</a>
+            </div>
+        </div>
+        <div id="veb" class="content">
+            <h2>Разработа веб-приложений</h2>
+            <div class="maincont" >
+                <div class="borderimg">
+                    <div class="imgcap">
+                        <img src="kapi.png" alt="Честный отзыв капибара">
+                    </div>
+                    <p>Сайт-визитка</p>
+                    <div class="push" id="myBtn1"><button>Заказать</button></div>
+                </div>
+                <div class="borderimg">
+                    <div class="imgcap">
+                        <img src="workkapi.png" alt="Капибара-начальник">
+                    </div>
+                    <p>Корпоративный сайт</p>
+                    <div class="push" id="myBtn2"><button>Заказать</button></div>
+                </div>
+                <div class="borderimg">
+                    <div class="imgcap">
+                        <img src="shopkapi.jpg" alt="Авито капибара">
+                    </div>
+                    <p>Интернет-магазин</p>
+                    <div class="push" id="myBtn3"><button>Заказать</button></div>
+                </div>
+            </div>
+            <p>Не следует, однако, забывать, что консультация с широким активом способствует повышению качества распределения внутренних резервов и ресурсов. Кстати, реплицированные с зарубежных источников, современные исследования, инициированные исключительно синтетически, смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Лишь базовые сценарии поведения пользователей подвергнуты целой серии независимых исследований. Ясность нашей позиции очевидна: граница обучения кадров играет определяющее значение для своевременного выполнения сверхзадачи. Прежде всего, новая модель организационной деятельности обеспечивает актуальность экспериментов, поражающих по своей масштабности и грандиозности. Ясность нашей позиции очевидна: высокое качество позиционных исследований играет определяющее значение для экспериментов, поражающих по своей масштабности и грандиозности. С другой стороны, консультация с широким активом способствует подготовке и реализации существующих финансовых и административных условий.</p>
+            <h2>Товары</h2>
+            <div id="shop" class="grid-conteiner">
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+                <div class="product">
+                    <p>Капибара</p>
+                    <img src="kapibublik.jpg" alt="Авито капибара">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Заказать услугу</h2>
+            <span class="close">&times;</span>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm" class="contactForm">
+                <div class="informaition">
+                    <div class="textForm"><label for="name">Ваше имя:</label></div>
+                    <input class="inputForm" type="text" id="name" name="name" required>
+                </div>
+                <div class="informaition">
+                    <div class="textForm"><label for="email">Электронная почта:</label></div>
+                    <input class="inputForm" type="email" id="email" name="email" required>
+                </div>
+                <div class="informaition">
+                    <div class="textForm"><label for="phone">Телефон:</label></div>
+                    <input class="inputForm" type="tel" id="phone" name="phone">
+                </div>
+                <div class="informaition">
+                    <div class="textForm"><label for="country">Страна:</label></div>
+                    <select class="windows" id="country" name="country">
+                        <option value="Россия">Россия</option>
+                        <option value="США">США</option>
+                        <option value="Канада">Канада</option>
+                    </select>
+                </div>
+
+                <div class="informaition">
+                    <div class="textForm"><label for="date">Дата:</label></div>
+                    <input class="windows" type="date" id="date" name="date">
+                </div>
+                <div class="informaition">
+                    <div class="textForm"><label for="comments">Комментарий:</label></div>
+                    <textarea class="inputForm" id="comments" name="comments"></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    <div class="textForm"><label for="agreement">Согласен на обработку моих персональных данных</label></div>
+                </div>
+                <button type="submit" style="margin-top: 20px; font-size: 15px;">Отправить</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      
+    </div>
+    <footer>
+        <p style="text-align: center; grid-area: privacy;">© Савенкова Татьяна Эдуардовна, 2024</p>
+        <div class="social-links">
+            <a target="_blank" href="https://wa.me/79156974448?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%83%D0%B5%D1%82..."><img src="whatsapp.png" alt="whatsapp"></a>
+            <a target="_blank" href="https://vk.com/svenkt"><img src="vk.png" alt="vkontakte"></a>
+        </div>
+    </footer>
+    
+<script>
+    var modal = document.getElementById('myModal');
+    var btn1 = document.getElementById("myBtn1");
+    var btn2 = document.getElementById("myBtn2");
+    var btn3 = document.getElementById("myBtn3");
+    var span = document.getElementsByClassName("close")[0];
+
+
+    btn1.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    btn2.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    btn3.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    var formData = {
+        name: '',
+        email: '',
+        phone: '',
+        date: '',
+        comment: '',
+        printData: function() {
+            console.log(`Имя: ${this.name}`);
+            console.log(`E-mail: ${this.email}`);
+            console.log(`Телефон: ${this.phone}`);
+            console.log(`Дата: ${this.date}`);
+            console.log(`Комментарий: ${this.comment}`);
+        }
+    };
+
+    function submitForm(event) {
+        event.preventDefault();
+
+        formData.name = document.getElementById('name').value;
+        formData.email = document.getElementById('email').value;
+        formData.phone = document.getElementById('phone').value;
+        formData.date = document.getElementById('date').value;
+        formData.comment = document.getElementById('comments').value;
+
+        // Проверки
+        if (formData.name === '' || formData.email === '' || formData.comment === '') {
+            alert('Поля "Имя", "E-mail" и "Комментарий" обязательны для заполнения!');
+            return;
+        }
+
+        if (!/^[0-9]+$/.test(formData.phone)) {
+            alert('Поле "Телефон" должно содержать только цифры!');
+            return;
+        }
+
+        if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(formData.email)) {
+            alert('Некорректный e-mail!');
+            return;
+        }
+
+        formData.printData();
+
+        // Вывод сообщения с анимацией ВНУТРИ модального окна
+        let messageContainer = document.querySelector('.modal-footer');
+        let message = document.createElement('div');
+        message.id = 'successMessage';
+        message.textContent = 'Форма отправлена!';
+        messageContainer.innerHTML = '';
+        messageContainer.appendChild(message);
+
+
+        setTimeout(() => {
+            message.style.opacity = 0;
+            setTimeout(() => {
+                messageContainer.removeChild(message);
+            }, 1000);
+        }, 3000);
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', submitForm);
+</script>
+</body>
+</html>

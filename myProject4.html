@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Татьяна Савенкова</title>
+    <link rel="icon" href="icons8-звезда-64.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+
+<body>
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+        <div class="d-flex flex-row align-items-center justify-content-between w-100">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="capybara_7743312.png" alt="logo" width="32" height="32" class="me-2">
+            </a>
+            <div class="text-end">
+                <span class="me-2">Группа ЭФБО-02-23</span><br>
+                Савенкова Татьяна Эдуардовна
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link px-2 text-secondary" target="_blank">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-white">Первый семестр</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-white">Второй семестр</a>
+                </li>
+                <li class="nav-item">
+                    <a href="myProject2.html" class="nav-link px-2 text-white" target="_blank">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-white">Авторизация</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="bg-body-tertiary p-3">
+                <h4>Навигация<br>по странице</h4>
+                <div class="list-group">
+                    <a href="#lections" class="list-group-item list-group-item-action">Лекции</a>
+                    <a href="#practies" class="list-group-item list-group-item-action">Практики</a>
+                    <a href="#adress" class="list-group-item list-group-item-action">Адрес вуза</a>
+                    <a href="#programm" class="list-group-item list-group-item-action">Рабочая программа</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div id="carouselExampleControls" class="carousel slide col-md-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card borderimg">
+                            <div class="imgcap">
+                                <img src="kapi.png" class="card-img-top" alt="Честный отзыв капибара">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Сайт-визитка</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card borderimg">
+                            <div class="imgcap">
+                                <img src="workkapi.png" class="card-img-top" alt="Капибара-начальник">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Корпоративный сайт</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card borderimg">
+                            <div class="imgcap">
+                                <img src="shopkapi.jpg" class="card-img-top" alt="Авито капибара">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Интернет-магазин</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+
+            <h2 class="text-dark">Первый семестр</h2>
+
+            <div id="lections" class="mt-4">
+                <h3 class="text-dark">Лекции</h3>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Тема</th>
+                        <th scope="col">Посещение</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td>Основы языка HTML</td>
+                        <td class="text-center"><input type="checkbox" checked></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td>Углубленное изучение HTML</td>
+                        <td class="text-center"><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td>Основы работы с CSS</td>
+                        <td class="text-center"><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td>Адаптивная верстка. Flexbox и Grid Layout</td>
+                        <td class="text-center"><input type="checkbox"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="practies" class="mt-4">
+                <h3 class="text-dark">Практики</h3>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Тема</th>
+                        <th scope="col">Посещение</th>
+                        <th scope="col">Выполнение</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td>Основы языка HTML</td>
+                        <td class="text-center"><input type="checkbox" checked></td>
+                        <td class="text-center"><input type="checkbox" checked></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="adress" class="mt-4">
+                <h3 class="text-dark">Занятия проходят по адресу просп. Вернадского, 78, стр. 4, Москва:</h3>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A84c6a64f17bed8cc21ba467da41d24ef7c797e8ec7bfa73476b7ca13be5aa2b2&amp;source=constructor"
+                            frameborder="0" style="margin: 0;"></iframe>
+                </div>
+            </div>
+
+            <div class="programm mt-4" id="programm">
+                <h3 class="text-dark">Рабочая программа:</h3>
+                <div>
+                    <embed class="pdf" src="Рабочая программа.pdf" width="100%" height="500px" type="application/pdf">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="mt-5 p-3 bg-dark text-white">
+    <div class="container">
+        <div class="d-flex flex-row justify-content-between w-100">
+            <div class="col-md-4 offset-4 offset-mb-0 text-center text-white">
+                <p>© Савенкова Татьяна Эдуардовна, 2024</p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                <div class="social-links">
+                    <a target="_blank"
+                       href="https://wa.me/79156974448?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..."><img
+                            src="whatsapp.png" alt="whatsapp" width="30px"></a>
+                    <a target="_blank" href="https://vk.com/svenkt"><img src="vk.png" alt="vkontakte" width="30px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="myModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Заказать услугу</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ваше имя:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Электронная почта:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Телефон:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Страна:</label>
+                        <select class="form-select" id="country" name="country">
+                            <option value="Россия">Россия</option>
+                            <option value="США">США</option>
+                            <option value="Канада">Канада</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Дата:</label>
+                        <input type="date" class="form-control" id="date" name="date">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Комментарий:</label>
+                        <textarea class="form-control" id="comments" name="comments"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="agreement" name="agreement" required>
+                        <label class="form-check-label" for="agreement">Согласен на обработку моих персональных данных</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h5>Спасибо за обращение!</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
